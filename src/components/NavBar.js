@@ -153,7 +153,7 @@ function NavBar() {
             //Enviar chamando a requisição HTTP POST
             function enviarUsuario(e){
                 e.preventDefault(); //para não atualizar a tela quando for chamada a função
-                axios.post("http://localhost:8080/app/usuarios", {
+                axios.post("http://54.234.77.20:8080/app/usuarios", {
                     nome: userData.nome,
                     idade: userData.idade,
                     apelido: userData.idade,
@@ -214,7 +214,7 @@ function NavBar() {
     
         //Enviar chamando a requisição HTTP POST
         function enviar3(f){
-            axios.post("http://localhost:8080/app/vacinas", {
+            axios.post("http://54.234.77.20:8080/app/vacinas", {
                 nome: vacinaData.nomeVacina,
                 data: vacinaData.dataVacina.replace(/[^a-zA-Z0-9]/g, ""),
                 dose: vacinaData.doseVacina.replace(/[^a-zA-Z0-9]/g, ""),
