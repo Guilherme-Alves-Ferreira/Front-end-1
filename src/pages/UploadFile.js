@@ -24,7 +24,7 @@ class UploadFile extends Component {
 		formdata.append('arquivo', file)
 
 		axios({
-			url: `http://localhost:8080/app/relatorios/anexo-pet`,
+			url: `http://54.234.77.20:8080/app/relatorios/anexo-pet`,
 			method: "POST",
 			headers:{
 				authorization: `your token`
@@ -53,7 +53,7 @@ class UploadFile extends Component {
 		formdata.append('arquivo', file)
 
 		axios({
-			url: `http://localhost:8080/app/relatorios/anexo-usuarios`,
+			url: `http://54.234.77.20:8080/app/relatorios/anexo-usuarios`,
 			method: "POST",
 			headers:{
 				authorization: `your token`
@@ -84,7 +84,7 @@ class UploadFile extends Component {
 		formdata.append('arquivo', file)
 
 		axios({
-			url: `http://localhost:8080/app/relatorios/anexo-usuarios-pets`,
+			url: `http://54.234.77.20:8080/app/relatorios/anexo-usuarios-pets`,
 			method: "POST",
 			headers:{
 				authorization: `your token`

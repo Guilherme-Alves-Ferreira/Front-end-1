@@ -32,7 +32,7 @@ function Pet(){
 
             useEffect(() =>{
                 async function filtrar(){
-                    const resposta = await axios.post("http://localhost:8080/app/pets/filtrar", {
+                    const resposta = await axios.post("http://54.234.77.20:8080/app/pets/filtrar", {
                         idade: idadeFiltro,
                         nome: nomeFiltro,
                         especie: especieFiltro,
