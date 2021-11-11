@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiAllPets = axios.create({
-    baseURL: "http://54.234.77.20:8080/app/todos-pets"
+    baseURL: "http://52.3.6.109:8080/app/todos-pets"
 })
 
 export default apiAllPets;
