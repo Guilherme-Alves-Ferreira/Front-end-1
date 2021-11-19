@@ -91,7 +91,7 @@ function PetItem(props){
 
        //Enviar chamando a requisição HTTP POST
        function darLike(e){
-        axios.post("https://52.3.6.109:8443/app/usuarios/gostarPet", {
+        axios.post("http://52.3.6.109:8080/app/usuarios/gostarPet", {
             idPet: idModalPet,
             querPetWek: hasPetWeek
         }).then(resposta => {
