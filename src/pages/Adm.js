@@ -81,17 +81,17 @@ function Adm(){
                         <Col>
                         <div className="text-dark mt-5 ms-5 ps-5 divBtnRelatorios">
                         <h1 className="sobre_titulo"><b>Relatórios</b></h1>
-                        <a href="https://52.3.6.109:8080/app/relatorios/pets">
+                        <a href="https://52.3.6.109:8443/app/relatorios/pets">
                         <Button variant="success" className="background2">Relatório Pets</Button></a>
 
-                        <a href="https://52.3.6.109:8080/app/relatorios/usuarios">
+                        <a href="https://52.3.6.109:8443/app/relatorios/usuarios">
                         <Button variant="success" className="background3">Relatório Usuários</Button></a>
                         <br></br>
                         <br></br>
-                        <a href="https://52.3.6.109:8080/app/relatorios/usuarios-pets">
+                        <a href="https://52.3.6.109:8443/app/relatorios/usuarios-pets">
                         <Button variant="success" className="background2">Relatório Usuários-Pets</Button></a>
 
-                        <a href="https://52.3.6.109:8080/app/relatorios/petweek">
+                        <a href="https://52.3.6.109:8443/app/relatorios/petweek">
                         <Button variant="success" className="background3">Relatório PetWeek</Button></a>
                         <br></br>
                         <br></br>
