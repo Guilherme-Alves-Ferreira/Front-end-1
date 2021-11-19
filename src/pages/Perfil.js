@@ -74,7 +74,7 @@ function Perfil(props){
     //Enviar chamando a requisição HTTP POST
     function enviar(e){
         e.preventDefault(); //para não atualizar a tela quando for chamada a função
-        axios.post("http://52.3.6.109:8080/app/pets", {
+        axios.post("https://52.3.6.109:8080/app/pets", {
             nome: petData.nomePet,
             idade: petData.idadePet,
             especie: petData.especiePet,
