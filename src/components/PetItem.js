@@ -188,7 +188,7 @@ function PetItem(props){
                                        <div id="front-modal"  className="flip-modal-front">
                                            <Row>
                                             <Col sm={5}>
-                                              <Image src={props.imagem} className="img-fluid img-pet-modal" alt="" />
+                                              <Image src={"data:image/png;base64," + props.imagem} className="img-fluid img-pet-modal" alt="" />
                                               <input id="idPetModal" className="idPetModal" value={props.id}></input>
                                             </Col>
                                             <Col sm={7}>

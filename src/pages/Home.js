@@ -160,7 +160,7 @@ function Home(){
                                                         porte={pet.porte == "P" ? "Pequeno" : pet.porte == "M" ? "Médio" : "Grande"}
                                                         porteModal={pet.porte}  
                                                         faixa={pet.idade <= 1 ? "Filhote" : pet.idade > 1 && pet.idade <= 5 ? "Adulto" : "Idoso"}
-                                                        imagem={pet.fotoPerfil} 
+                                                        imagem={"data:image/png;base64," + pet.fotoPerfil} 
                                                         sexoIcon={pet.sexo == "M" ? iconMale : iconFemale}
                                                         raca={pet.raca}
                                                         especie={pet.especie}

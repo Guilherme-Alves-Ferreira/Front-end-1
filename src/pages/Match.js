@@ -61,8 +61,8 @@ function Match(){
             
                 <h5 className="titleMatch descriptionMatch" id="petsWithMatch">Por enquanto você não possui nenhum match :(</h5>
                     {matchs.map((match => 
-                    <MatchItem imagemAdotante={match.fotoAdotante} nomeAdotante={match.nomeAdotante} id={match.idAdotante} infoEmailAdotante={`E-mail: ${match.emailAdotante}`} infoTelAdotante={`Telefone: ${match.telefoneAdotante}`} isPetWeek={`Quer pet week: ${match.querPetWek == true ? "Sim" : "Não"}`}  imagemPet={match.fotoPet} nome_pet={match.nomePet} id_pet={match.idPet} 
-                    imagemDoador={match.fotoDoador} nomeDoador={match.nomeDoador} id={match.idAdotante} infoEmailDoador={`E-mail: ${match.emailDoador}`} infoTelDoador={`Telefone: ${match.telefoneDoador}`} />
+                    <MatchItem imagemAdotante={"data:image/png;base64," + match.fotoAdotante} nomeAdotante={match.nomeAdotante} id={match.idAdotante} infoEmailAdotante={`E-mail: ${match.emailAdotante}`} infoTelAdotante={`Telefone: ${match.telefoneAdotante}`} isPetWeek={`Quer pet week: ${match.querPetWek == true ? "Sim" : "Não"}`}  imagemPet={"data:image/png;base64," + match.fotoPet} nome_pet={match.nomePet} id_pet={match.idPet} 
+                    imagemDoador={"data:image/png;base64," + match.fotoDoador} nomeDoador={match.nomeDoador} id={match.idAdotante} infoEmailDoador={`E-mail: ${match.emailDoador}`} infoTelDoador={`Telefone: ${match.telefoneDoador}`} />
                     ))}     
                 <br></br>
             </div>
@@ -71,7 +71,7 @@ function Match(){
                 <hr></hr>
                 <h1 className="titleMatch " id="messageLikes">Match's Pendentes</h1>
                     {likes.map((like => 
-                        <LikeItem imagem1={like.fotoAdotante} nome={like.nomeAdotante} id={like.idAdotante} infoEmail={`E-mail: ${like.emailAdotante}`} infoTel={`Telefone: ${like.telefoneAdotante}`} isPetWeek={`Quer pet week: ${like.querPetWek == true ? "Sim" : "Não"}`} imagem={like.fotoPet} nome_pet={like.nomePet} id_pet={like.idPet}/>
+                        <LikeItem imagem1={"data:image/png;base64," + like.fotoAdotante} nome={like.nomeAdotante} id={like.idAdotante} infoEmail={`E-mail: ${like.emailAdotante}`} infoTel={`Telefone: ${like.telefoneAdotante}`} isPetWeek={`Quer pet week: ${like.querPetWek == true ? "Sim" : "Não"}`} imagem={"data:image/png;base64," + like.fotoPet} nome_pet={like.nomePet} id_pet={like.idPet}/>
                     ))}              
                 <h5 className="titleMatch" id="petsWithLike">Por enquanto você não possui nenhum pet curtido :(</h5>
             </div>
