@@ -127,7 +127,7 @@ function PetItem(props){
     return(
         <>
             <Card className="card_pet">
-                <Card.Img variant="top" className="img-animais" src={props.imagem} />
+                <Card.Img variant="top" className="img-animais" src={"data:image/png;base64," + props.imagem} />
                     <Card.Body>
                     <Row>
                         <Col sm={6}>
